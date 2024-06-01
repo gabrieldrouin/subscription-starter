@@ -26,7 +26,7 @@ export default async function PricingPage() {
     .order('metadata->index')
     .order('unit_amount', { referencedTable: 'prices' });
 
-  console.log('hello mom');
+  console.log(subscription);
 
   return (
     <Pricing
